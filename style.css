@@ -1,0 +1,352 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 9vh;
+    background-color: rgb(24, 27, 42);
+    display: flex;
+    flex-direction: row;
+}
+
+header i {
+    color: white;
+    margin-top: 30px;
+    margin-left: 29px;
+    cursor: pointer;
+
+}
+
+.amazon_logo {
+    width: 120px;
+    margin-top: 18px;
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+.location {
+    color: white;
+    margin: 15px 0px 0px 10px;
+    font-family: "Anek Gurmukhi", sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+}
+.location i{
+    margin-top: 15px;
+}
+
+.p2 {
+    font-weight: 10px;
+}
+
+.p1 {
+    color: rgb(202, 202, 202);
+}
+
+#first {
+    height: 38px;
+    width: 50px;
+    margin-top: 15px;
+    margin-left: 36px;
+    text-align: center;
+    background-color: rgb(228, 224, 224);
+    border-radius: 4px 0px 0px 4px;
+    cursor: pointer;
+    margin-right: 0;
+}
+
+.language p {
+    color: white;
+    margin: 35px 0px 0px 5px;
+    font-size: 15px;
+    font-family: "Anek Gurmukhi", sans-serif;
+}
+
+.indian_flag {
+    width: 25px;
+    height: 17px;
+    margin: 34px 0px 0px 36px;
+}
+
+.search {
+    height: 39px;
+    margin-top: 14px;
+    border-radius: 0px;
+    width: 569px;
+    padding: 10px;
+    font-family: "Anek Gurmukhi", sans-serif;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+/* .search:hover {
+    height: 38px;
+    margin-top: 16px;
+    border-radius: 0px;
+    width: 569px;
+    padding: 10px;
+    font-family: "Anek Gurmukhi", sans-serif;
+} */
+
+.search_icon {
+    background-color: rgb(231, 182, 91);
+    height: 37px;
+    width: 45px;
+    margin-top: 15px;
+    border-radius: 0px 4px 4px 0px;
+    cursor: pointer;
+}
+
+.search_icon:hover {
+    background-color: rgb(227, 166, 52);
+}
+
+.search_icon i {
+    margin-left: 15px;
+    margin-top: 10px;
+    color: black;
+}
+
+.arow i {
+    margin: 33px 0px 0px 5px;
+    height: 2px;
+    cursor: pointer;
+}
+
+.signin {
+    color: white;
+    font-family: "Anek Gurmukhi", sans-serif;
+    margin: 19px 0px 0px 15px;
+    cursor: pointer;
+}
+
+.p4 {
+    font-weight: bolder;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.p3 {
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.return {
+    color: white;
+    font-family: "Anek Gurmukhi", sans-serif;
+    margin: 19px 0px 0px 15px;
+    cursor: pointer;
+}
+
+.p5 {
+    color: white;
+    font-family: "Anek Gurmukhi", sans-serif;
+    margin: 28px 0px 0px 8px;
+    font-size: 19px;
+    cursor: pointer;
+}
+
+.subheader {
+    display: flex;
+    flex-direction: row;
+    height: 5vh;
+    background-color: rgb(39, 44, 70);
+}
+
+.subheader i {
+    color: white;
+    margin-top: 10px;
+    margin-left: 15px;
+
+}
+
+.arow_second {
+    margin-top: 0px;
+    margin-left: px;
+}
+
+.subheader p {
+    color: white;
+    font-family: "Anek Gurmukhi", sans-serif;
+    margin: 10px;
+}
+
+.Second_header {
+    color: rgb(247, 240, 240);
+    font-family: "inherit", sans-serif;
+    margin: 10px 0px 0px 17px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.bodyimage {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(bodyimage2.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.box1 {
+    height: 420px;
+    width: 370px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    /* top: 260px;
+    left: 40px; */
+    margin: 0px 18px 0px 25px;
+}
+
+.box2 {
+    height: 420px;
+    width: 370px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    /* top: -160px;
+    left: 410px; */
+    margin: 0px 18px;
+}
+
+.box3 {
+    height: 420px;
+    width: 370px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    /* top: -580px;
+    left: 780px; */
+    margin: 0px 18px;
+}
+
+.box4 {
+    height: 420px;
+    width: 370px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    /* top: -1000px;
+    left: 1150px; */
+    margin: 0px 18px;
+}
+.box5 {
+    height: 420px;
+    width: 370px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    /* top: -1000px;
+    left: 1150px; */
+    /* margin-top: 20px; */
+    margin: 0px 18px;
+}.box6 {
+    height: 420px;
+    width: 370px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    /* top: -1440px;
+    left: 780px; */
+    /* margin-top: 20px;
+     */
+     margin: 0px 18px;
+}.box7 {
+    height: 420px;
+    width: 370px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    /* top: -1880px;
+    left: 410px; */
+    /* margin-top: 20px; */
+    margin: 0px 18px;
+}.box8 {
+    height: 420px;
+    width: 370px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    /* top: -2320px;
+    left: 40px; */
+    /* margin-top: 20px; */
+    margin: 0px 18px;
+}
+
+
+body {
+    background-color: rgb(212, 212, 212);
+}
+
+.h2 {
+    font-family: "inherit", sans-serif;
+    font-size: 14px;
+    padding: 22px;
+}
+
+.image_box1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.image_box2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.image_box2 img {
+    margin-top: 10px;
+}
+
+.image1 img {
+    width: 150px;
+    height: 120px;
+    object-fit: cover;
+    margin-left: 14px;
+    cursor: pointer;
+    
+}
+
+.box1_text {
+    display: flex;
+    flex-direction: row;
+}
+
+.img1_text {
+    font-size: 14px;
+    margin-left: 15px;
+    cursor: pointer;
+
+
+}
+
+.exploreall p {
+    font-family: "inherit", sans-serif;
+    font-size: 13px;
+    margin-top: 10px;
+    margin-left: 20px;
+    color: rgb(65, 65, 147);
+    cursor: pointer;
+}
+main{
+    min-height: calc(100vh - 9vh -30vh);
+}
+
+.boxrow1{
+    display: flex;
+    flex-direction: row;
+}
+.boxrow2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-bottom: 13px;
+    margin-left: 8px;
+}
+.fullbox{
+    position: relative;
+    top: -470px;
+}
+footer{
+    height: 40vh;
+    width: 100vw;
+    background-color: rgb(24, 27, 42);
+    
+   
+    
+}
